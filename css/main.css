@@ -14,7 +14,8 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #E5E4E4;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 a:hover {
     text-decoration: underline;
@@ -22,11 +23,12 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #F1F1F1;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.4em;
-    color: #333;
+    color: #E5E4E4;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -40,4 +42,19 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+#wrapper {
+    padding-bottom: 20px;
+    overflow: hidden; 
+}
+#first {
+    float:left;
+}
+#second {
+    padding-left: 20px;
+    overflow: hidden;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+body {
+    background-image: url("/images/diagmonds.png");
 }
