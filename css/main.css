@@ -89,6 +89,11 @@ body {
     padding-top: 20px;
 }
 .container {
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
     padding: 10px;
+}
+/* CV */
+
+.cv {
+    text-align: center;
 }
