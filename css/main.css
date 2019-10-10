@@ -2,6 +2,7 @@ html {
     height: 100%;
 }
 body {
+    background-image: "/images/adventure-architecture-bay-196667.jpg";
     margin: 60px auto;
     width: 80%;
     display: flex;
@@ -67,7 +68,7 @@ body {
     background-image: url("/images/diagmonds.png");
 }
 .profilepic {
-    
+
 }
 .homepage {
     /* display: block; */
