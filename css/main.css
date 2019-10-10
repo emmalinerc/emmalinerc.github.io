@@ -67,18 +67,7 @@ body {
     background-image: url("/images/diagmonds.png");
 }
 .profilepic {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-color: blanchedalmond;
-}
-.profilepic:hover {
-    transition: all 0.3s ease-in-out 0s;
-    transform: rotate(720deg) scaleX(10);;
+    
 }
 .homepage {
     /* display: block; */
