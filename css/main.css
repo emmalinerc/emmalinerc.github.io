@@ -1,8 +1,13 @@
 html {
     height: 100%;
+    position: relative;
+    background: url("/images/adventure.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 body {
-    background-image: url("/images/adventure-architecture-bay-196667.jpg");
     margin: 60px auto;
     width: 80%;
     display: flex;
@@ -21,38 +26,45 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #E5E4E4;
+    color: #2D2D2D;
     font-family: Rubik;
+    vertical-align: middle;
 }
 a:hover {
-    /* text-decoration: underline; */
-    color: blanchedalmond;
+    color: #6E6E6E;
 }
 h1 {
     font-size: 3em;
-    font-family: Triong;
-    color: blanchedalmond;
+    font-family: Roboto;
+    color: #443F3B;
     text-align: center;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1.4em;
+    color: blanchedalmond;
+    font-family: Roboto;
 }
 p {
     font-size: 1.25em;
     line-height: 1.4em;
-    color: #E5E4E4;
+    color: white;
     font-family: Rubik;
-    text-align: center;
+}
+i {
+    font-size: 5em;
 }
 nav{
     text-align: right;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #2D2D2D;
     font-size: .8em;
-    text-align: right;
+    text-align: left;
     flex-shrink: 0;
-    padding: 20px;
-    
+    width: 100%;
+    bottom: 0;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -61,29 +73,72 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-#wrapper {
-    padding-bottom: 20px;
-}
-body {
-    background-image: url("/images/diagmonds.png");
-}
-.profilepic {
-
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; 
 }
 .homepage {
-    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     justify-content: center;
-    padding-top: 20px;
 }
 .container {
-    /* flex: 1 0 auto; */
     padding: 10px;
 }
-/* CV */
-
-.cv {
+.xamarin {
+    width: 5em;
+}
+* {
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.inline {
+    display:inline-block;
+}
+.icon {
+    padding: .2em;
+    vertical-align: middle;
+}
+.center {
     text-align: center;
+}
+.contact {
+    font-size: 2em;
+}
+.pagepadding {
+    padding-top: 20px;
+}
+.topborder {
+    border-top: 1px solid blanchedalmond;
+    padding-top: 20px;
+}
+.filledbackground {
+    opacity: 0.8;
+    background-color: #2D2D2D;
+    padding: 20px;
+    border-radius: 10px;
+}
+.lighttext {
+    color: whitesmoke;
+}
+.contacttext {
+    font-size:30px;
+    color: whitesmoke;
+}
+.contacticon {
+    font-size: 3em;
+    padding: .2em;
+    padding-left: .6em;
+    vertical-align: middle;
+}
+.download {
+    font-size: 30px;
+    padding: 30px;
 }
