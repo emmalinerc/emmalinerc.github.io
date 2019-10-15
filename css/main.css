@@ -35,6 +35,9 @@ a {
 a:hover {
     color: #6E6E6E;
 }
+a:active {
+    color: #6E6E6E;
+}
 h1 {
     font-size: 3em;
     font-family: Roboto;
@@ -170,14 +173,17 @@ and (min-device-width : 10px)
     color: whitesmoke;
 }
 .cvicon {
-    font-size: 3em;
-    padding: .2em;
+    font-size: 50px;
+    padding: 0px 20px 0px 0px;
     vertical-align: middle;
 }
 .contacticon {
     font-size: 60px;
     padding: 30px 60px;
     vertical-align: middle;
+}
+.expertiseicon {
+    font-size: 75px;
 }
 .download {
     font-size: 30px;
