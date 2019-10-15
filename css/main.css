@@ -24,8 +24,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-
-
 a {
     text-decoration: none;
     color: #2D2D2D;
@@ -75,7 +73,7 @@ ul.posts li {
 /* Smartphone Portrait and Landscape */
 @media only screen
 and (min-device-width : 10px)
-  and (max-device-width : 600px){ 
+  and (max-device-width : 1000000px){ 
     nav a {
         padding: 14px 16px;
         text-decoration: none;
@@ -84,6 +82,7 @@ and (min-device-width : 10px)
     }
     .navicon {
         display: block;
+        font-size: 30px;
         right: 0;
         top: 0;
     }
@@ -97,7 +96,7 @@ and (min-device-width : 10px)
     }
 }
 @media only screen
-  and (min-device-width : 601px)
+  and (min-device-width : 100000px)
   and (max-device-width : 1000000px){ 
     nav a {
         padding: 14px 16px;
