@@ -28,6 +28,7 @@ nav ul li, footer ul li {
 
 /* Smartphone Portrait and Landscape */
 @media only screen
+and (max-device-width : 10px)
   and (max-device-width : 480px){ 
     nav #links {
         display: none;
@@ -51,7 +52,8 @@ nav ul li, footer ul li {
     }
 }
 @media only screen
-  and (min-device-width : 481px){ 
+  and (min-device-width : 481px)
+  and (max-device-width : 1000000000px){ 
     nav a {
         padding: 14px 16px;
         text-decoration: none;
