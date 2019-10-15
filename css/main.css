@@ -24,6 +24,49 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+.mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (max-device-width : 480px){ 
+    nav #links {
+        display: none;
+    }
+    nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    nav a.navicon {
+        display: block;
+        right: 0;
+        top: 0;
+        font-size: 10px;
+    }
+    nav{
+        overflow: hidden;
+        position: relative;
+        text-align: right;
+    }
+}
+@media only screen
+  and (min-device-width : 481px){ 
+    nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    nav a.navicon {
+        display: none;
+    }
+    nav{
+        overflow: hidden;
+        position: relative;
+        text-align: right;
+    }
+}
+
+
 a {
     text-decoration: none;
     color: #2D2D2D;
@@ -53,9 +96,6 @@ p {
 }
 i {
     font-size: 5em;
-}
-nav{
-    text-align: right;
 }
 footer {
     border-top: 1px solid #2D2D2D;
