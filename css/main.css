@@ -24,49 +24,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-.mobileShow {display: none;}
-
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (max-device-width : 10px)
-  and (max-device-width : 480px){ 
-    nav #links {
-        display: none;
-    }
-    nav a {
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-    nav a.navicon {
-        display: block;
-        right: 0;
-        top: 0;
-        font-size: 10px;
-    }
-    nav{
-        overflow: hidden;
-        position: relative;
-        text-align: right;
-    }
-}
-@media only screen
-  and (min-device-width : 481px)
-  and (max-device-width : 1000000000px){ 
-    nav a {
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    nav a.navicon {
-        display: none;
-    }
-    nav{
-        overflow: hidden;
-        position: relative;
-        text-align: right;
-    }
-}
 
 
 a {
@@ -96,9 +53,6 @@ p {
     color: white;
     font-family: Rubik;
 }
-i {
-    font-size: 5em;
-}
 footer {
     border-top: 1px solid #2D2D2D;
     font-size: .8em;
@@ -115,6 +69,47 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 10px)
+  and (max-device-width : 600px){ 
+    nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .navicon {
+        display: block;
+        right: 0;
+        top: 0;
+    }
+    nav{
+        overflow: hidden;
+        position: relative;
+        text-align: right;
+    }
+    #links {
+        display: none;
+    }
+}
+@media only screen
+  and (min-device-width : 601px)
+  and (max-device-width : 1000000px){ 
+    nav a {
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navicon {
+        display: none;
+    }
+    nav{
+        overflow: hidden;
+        position: relative;
+        text-align: right;
+    }
+}
+
 .main-container {
     min-height: 100vh;
     overflow: hidden;
