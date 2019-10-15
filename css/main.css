@@ -132,10 +132,14 @@ ul.posts li {
     font-size:30px;
     color: whitesmoke;
 }
-.contacticon {
+.cvicon {
     font-size: 3em;
     padding: .2em;
-    padding-left: .6em;
+    vertical-align: middle;
+}
+.contacticon {
+    font-size: 60px;
+    padding: 30px 60px;
     vertical-align: middle;
 }
 .download {
